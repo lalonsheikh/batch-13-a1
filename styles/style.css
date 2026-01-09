@@ -24,29 +24,41 @@ nav .menu a {
   border-radius: 5px;
   color: white;
   padding: 12.5px 16px;
+  cursor: pointer;
 }
 .banner {
   background: url(../assets/hero-bg.png);
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  max-width: 1600;
+  padding-top: 10px;
+  padding-bottom: 184px;
+}
+.banner-content {
+  max-width: 1360px;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
 .banner-content h2 {
   font-size: 72px;
   font-weight: 700;
   color: white;
+  margin-bottom: 5px;
 }
 .banner-heading {
   color: #30b868;
   margin-bottom: 0;
-  border: 2px solid red;
-      margin-block-end: 0em
+  /* border: 2px solid red; */
+  margin-bottom: 5px;
 }
 .banner-content p {
   color: white;
-  margin-top: 0;
-  padding: 0;
-  border: 2px solid red;
-
+  /* border: 2px solid red; */
+  margin-bottom: 32px;
+}
+.banner-btn {
+  margin-left: 80px;
 }
