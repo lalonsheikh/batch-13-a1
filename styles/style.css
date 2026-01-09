@@ -42,6 +42,7 @@ nav,
   text-align: center;
   border: 1px solid white;
 }
+/* banner section */
 .banner {
   background: url(../assets/hero-bg.png);
   display: flex;
@@ -52,7 +53,8 @@ nav,
   padding-top: 10px;
   padding-bottom: 184px;
 }
-.banner-content {
+.banner-content,
+.more-content {
   max-width: 1360px;
   /* display: block;
   justify-content: center;
@@ -90,6 +92,7 @@ nav,
   /* border: 2px solid red; */
   margin-bottom: 32px;
 }
+/* about section */
 .about {
   padding-top: 5px;
   background-color: #627382;
@@ -119,6 +122,7 @@ nav,
   font-size: 16px;
   color: #627382;
 }
+/* brain section */
 .brain {
   padding-top: 5px;
   background-color: #ffffff;
@@ -156,9 +160,35 @@ nav,
 .brain-list p {
   color: #001931;
 }
+/* more style */
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  max-width: 1600;
+  padding-top: 10px;
+  padding-bottom: 184px;
+  text-align: center;
+}
+.more-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 0;
+}
+.more-content p {
+  font-size: 16px;
+  color: #627382;
+}
+/* footer style */
 footer {
-  width: 1600px;
+  max-width: 1600px;
+
   background-color: #001931;
+}
+.footer-bar h2 {
+  padding-left: 20px;
 }
 .footer-social {
   color: white;
