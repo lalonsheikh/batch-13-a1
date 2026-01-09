@@ -116,3 +116,42 @@ nav .menu a {
   font-size: 16px;
   color: #627382;
 }
+.brain {
+  padding-top: 5px;
+  background-color: #ffffff;
+}
+.brain-container {
+  width: 80%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  /* padding: 131px 156px; */
+  display: flex;
+  justify-content: space-between;
+}
+.brain-content {
+  text-align: left;
+}
+.brain-content h2 {
+  color: #469165;
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: 500;
+}
+.brain-content h1 {
+  color: #001931;
+  font-size: 48px;
+}
+.brain-content h6 {
+  color: #627382;
+}
+.brain-list {
+  text-align: left;
+  font-size: 20;
+  font-weight: bold;
+  
+}
+.brain-list p{
+  color: #001931;
+
+}
