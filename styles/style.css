@@ -31,7 +31,8 @@ nav,
   /* text-align: center; */
 }
 .btn-1 {
-  background-color: black;
+  background-color: rgb(141, 185, 176);
+  
   border: none;
   font-size: 16px;
   font-weight: bold;
@@ -74,7 +75,7 @@ nav,
   font-size: 20px;
   color: #30b868;
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 2rem;
   margin-top: 2rem;
   margin-bottom: o;
   text-align: center;
@@ -205,8 +206,7 @@ footer {
 }
 .br {
   border: 2px solid white;
-  height: 5px;
-  color: white;
+ 
 }
 .footer-copy {
   text-align: center;
